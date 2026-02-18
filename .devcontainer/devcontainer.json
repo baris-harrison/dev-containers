@@ -34,8 +34,6 @@
 			},
 			"extensions": [
 				"charliermarsh.ruff",
-				"dracula-theme.theme-dracula",
-				"github.copilot-chat",
 				"github.remotehub",
 				"github.vscode-pull-request-github",
 				"ms-python.black-formatter",
