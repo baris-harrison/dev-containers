@@ -2,7 +2,7 @@
 	"name": "Python 3.12 Dev Container",
 	"build": {
 		"dockerfile": "Dockerfile",
-		"context": ".."
+		"context": "../.."
 	},
 
 	"customizations": {
@@ -14,7 +14,6 @@
 				"editor.minimap.size": "fill",
 				"files.autoSave": "afterDelay",
 				"files.autoSaveDelay": 1000,
-				"workbench.colorTheme": "Dracula Theme",
 				"explorer.excludeGitIgnore": true,
 				"editor.cursorStyle": "block-outline",
 				"editor.cursorBlinking": "smooth",
