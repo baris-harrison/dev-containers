@@ -5,6 +5,8 @@ ARG PYTHON_VERSION=3.12
 FROM mcr.microsoft.com/devcontainers/python:${PYTHON_VERSION}
 
 LABEL org.opencontainers.image.source https://github.com/baris-harrison/dev-container
+LABEL org.opencontainers.image.description="Python 3.12 Dev Container for VS Code"
+LABEL org.opencontainers.image.licenses=MIT
 # Set working directory
 WORKDIR /app
 
