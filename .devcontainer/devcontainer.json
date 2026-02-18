@@ -1,0 +1,50 @@
+{
+	"name": "Python 3",
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12",
+
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"window.zoomLevel": 1,
+				"workbench.tree.indent": 20,
+				"editor.minimap.renderCharacters": false,
+				"editor.minimap.size": "fill",
+				"files.autoSave": "afterDelay",
+				"files.autoSaveDelay": 1000,
+				"workbench.colorTheme": "Dracula Theme",
+				"explorer.excludeGitIgnore": true,
+				"editor.cursorStyle": "block-outline",
+				"editor.cursorBlinking": "smooth",
+				"editor.rulers": [88],
+				"[python]": {
+					"diffEditor.ignoreTrimWhitespace": false,
+					"editor.defaultColorDecorators": "never",
+					"editor.formatOnType": true,
+					"editor.wordBasedSuggestions": "off",
+					"editor.defaultFormatter": "ms-python.black-formatter",
+					"editor.formatOnSave": true
+				},
+				"python.defaultInterpreterPath": "/usr/local/bin/python",
+				"explorer.confirmDelete": false,
+				"explorer.compactFolders": false,
+				"git.autofetch": true
+			},
+			"extensions": [
+				"charliermarsh.ruff",
+				"dracula-theme.theme-dracula",
+				"github.copilot-chat",
+				"github.remotehub",
+				"github.vscode-pull-request-github",
+				"ms-python.black-formatter",
+				"ms-python.debugpy",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.vscode-python-envs",
+				"ms-vscode.remote-repositories"
+			]
+		}
+	},
+
+	"postCreateCommand": "python --version"
+
+}
